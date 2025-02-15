@@ -1,0 +1,214 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #004e64;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 90%;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    border-radius: 20px;
+}
+
+/* Logo */
+.logo {
+    width: 180px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #0077b6;
+    color: white;
+}
+
+/* Sección Hero */
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+    background: url('img/Ceviche.jpg') no-repeat center center/cover;
+    color: white;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* Sección de Promociones */
+.promociones {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.promo-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff6b35;
+}
+
+.promo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.promo {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+}
+
+.promo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.promo button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.promo button:hover {
+    background: #005b8f;
+}
+
+/* Sección de Historia con imagen */ 
+.historia {
+ display: flex;
+ align-items: center;
+ background-color: #ffffff;
+ padding: 40px;
+ border-radius: 15px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin: 50px auto;
+ max-width: 900px;
+ text-align: left;
+} 
+.historia img {
+ width: 300px;
+ border-radius: 10px;
+ margin-right: 20px;
+} 
+.historia div {
+ flex: 1;
+}
+.historia h2 {
+ color: #0077b6;
+ margin-bottom: 15px;
+}
+.historia p {
+ font-size: 18px;
+ color: #333;
+ line-height: 1.5;
+}
+
+/* Sección de Ubicación */
+.preguntas {
+    background-color: #e0f7fa;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.preguntas h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+.preguntas p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.preguntas a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #0077b6;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.preguntas a:hover {
+    background: #005b8f;
+}
+
+/* Footer */
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    color: #e0f7fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

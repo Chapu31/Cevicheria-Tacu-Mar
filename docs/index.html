@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacu Mar - Cevichería</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header class="navbar">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="img/Logo 1.jpg" alt="Tacu Mar Logo" class="logo">            
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="pedido.html">Pedido</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Sección Principal -->
+    <section class="hero">
+        <h1>Bienvenido a Tacu Mar</h1>
+        <p>El mejor ceviche y mariscos frescos</p>
+    </section>
+    
+    <!-- Sección de Promociones -->
+    <section class="promociones">
+        <h2 class="promo-title">🎉 PROMOCIONES ESPECIALES 🎉</h2>
+        <div class="promo-container">
+            <div class="promo">
+                <img src="img/Ceviche.jpg" alt="Ceviche Promoción">
+                <p>Ceviche Promo - S/20</p>
+                <button onclick="agregarAlCarrito('Ceviche Promo', 20)">Añadir al Carrito</button>
+            </div>
+            <div class="promo">
+                <img src="img/Ceviche mixto.avif" alt="Ceviche Mixto">
+                <p>Ceviche Mixto - S/25</p>
+                <button onclick="agregarAlCarrito('Ceviche Mixto', 25)">Añadir al Carrito</button>
+            </div>
+            <div class="promo">
+                <img src="img/Ceviche Carretillero.jpg" alt="Ceviche Carretillero">
+                <p>Ceviche Carretillero - S/22</p>
+                <button onclick="agregarAlCarrito('Ceviche Carretillero', 22)">Añadir al Carrito</button>
+            </div>
+            <div class="promo">
+                <img src="img/Leche de Tigre.jpg" alt="Leche de Tigre">
+                <p>Leche de Tigre - S/16</p>
+                <button onclick="agregarAlCarrito('Leche de Tigre', 16)">Añadir al Carrito</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección de Historia con imagen -->
+    <section class="historia">
+        <div class="historia-content">
+            <h2>Nuestra Historia</h2>
+            <p>En Cevicheria Tacu Mar, la pasión por el mar se encuentra en cada plato. Desde el primer bocado, te llevamos a un viaje de sabores que despiertan tus sentidos.</p>
+        <p>Nuestra misión es ofrecerte lo mejor de la gastronomía marina, utilizando ingredientes frescos y de calidad. Cada ceviche es una obra maestra, creada con amor y dedicación.</p>
+        <p>Ven y descubre por qué somos la cevichería favorita de la ciudad. ¡Te prometemos que no querrás irte sin probar nuestras delicias!</p>
+        </div>
+        <img src="img/Historia.jpg" alt="Imagen de la cevichería" class="historia-img">
+    </section>
+    
+    <!-- Sección de Ubicación -->
+    <section class="preguntas">
+        <h2>¿Dónde estamos ubicados?</h2>
+        <p>Estamos en Calle las Calezas 256, Rímac.</p>
+        <p><a href="https://www.google.com/maps/place/Tacu+Mar/@-12.0278019,-77.0316958,18z/data=!3m1!4b1!4m6!3m5!1s0x9105cf57d8f5b66d:0x48898e032a508e40!8m2!3d-12.0278035!4d-77.0302477!16s%2Fg%2F11n5wg9vkx?entry=ttu&g_ep=EgoyMDI1MDIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ver en Google Maps</a></p>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-container">
+            <p>Ubicación: <a href="https://www.google.com/maps/place/Tacu+Mar/@-12.0278019,-77.0316958,18z/data=!3m1!4b1!4m6!3m5!1s0x9105cf57d8f5b66d:0x48898e032a508e40!8m2!3d-12.0278035!4d-77.0302477!16s%2Fg%2F11n5wg9vkx?entry=ttu&g_ep=EgoyMDI1MDIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Calle las Calezas 256, Rímac</a></p>
+        <p>Contacto: <a href="tel:+51987654321">+51 915 055 683</a></p>
+        <p>Síguenos en:
+                <a href="https://www.facebook.com/Tacumaroficial">Facebook</a> | 
+                <a href="https://www.instagram.com/Tacumaroficial/">Instagram</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
